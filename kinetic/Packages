@@ -240,6 +240,22 @@ Description: Vanilla OS Calamares Settings and Branding
  This package contains the Calamares settings and branding for Vanilla OS.
  As part of the branding the installer slideshow is contained within.
 
+Package: kernelstub
+Version: 3.1.4-1
+Architecture: all
+Maintainer: Ian Santopietro <isantop@gmail.com>
+Installed-Size: 86
+Depends: python3:any, efibootmgr, python3-debian, util-linux
+Recommends: python3-systemd
+Filename: ./kernelstub_3.1.4-1_all.deb
+Size: 12632
+MD5sum: cbd29ac88664cb2a5e4552b86c1a6e0e
+SHA1: 4c5c67cce1f55fe0daaa790553769bd8f662b02f
+SHA256: d65de8ef78032931c1b18ccea5a25bef595e5aad52201fd8d2b69b2795dc1891
+Section: python
+Priority: optional
+Description: Automatic kernel efistub manager for UEFI
+
 Package: linux-headers-6.0.1-060001
 Source: linux
 Version: 6.0.1-060001.202210120833
