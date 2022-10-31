@@ -980,3 +980,19 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
 Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
 
+Package: vanilla-installer
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 5753
+Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
+Filename: ./vanilla-installer_0.1.0_amd64.deb
+Size: 4106334
+MD5sum: 48c6fa4f823155cc2a016f98874ce48a
+SHA1: f431a7915534451b77b9047b67ee9ed9ce563f0d
+SHA256: 72a1df5f47101879f6ec368109e42466b0bd38cfce672afd3173ed7c116ec346
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-installer/
+Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
+
