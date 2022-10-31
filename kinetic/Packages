@@ -69,10 +69,10 @@ Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 9822
 Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
 Filename: ./almost_1.2.5_all.deb
-Size: 4857468
-MD5sum: c2777b8cd456d00734e549cdc82c7a72
-SHA1: e5697565b22b221b4cf26d612221d9fe143c56de
-SHA256: 53522861705bc18d641d8ead3a43b6334ae0b2e48cad945d7582e627fed67056
+Size: 1888
+MD5sum: e0a223e43c3ab132d69234f817e9c83f
+SHA1: 60524b0f4fd061cc48f68ce0a21c378e38efaec5
+SHA256: 9e8bcd8ae71acb1ab8ab22f85678807a77d694f4b7f42bb2452a900ae4dbca6d
 Section: devel
 Priority: extra
 Homepage: https://github.com/vanilla-os/almost
@@ -256,6 +256,22 @@ Description: Vanilla OS Calamares Settings and Branding
  This package contains the Calamares settings and branding for Vanilla OS.
  As part of the branding the installer slideshow is contained within.
 
+Package: distinst
+Version: 0.3.2-1
+Architecture: amd64
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Installed-Size: 3688
+Depends: libdistinst (= 0.3.2-1), libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1)
+Filename: ./distinst_0.3.2-1_amd64.deb
+Size: 1116644
+MD5sum: 028e8cd9550a601c573140aefd9d94d4
+SHA1: 2035bb71cfbccf3439a9e1f46df7aebbb7780282
+SHA256: eda41558558484282712eaa7d6d61dfc56d5b034109e641c53f5cdeea5910421
+Section: admin
+Priority: optional
+Homepage: https://github.com/pop-os/distinst
+Description: Distribution Installer CLI
+
 Package: kernelstub
 Version: 3.1.4-1
 Architecture: all
@@ -271,6 +287,40 @@ SHA256: d65de8ef78032931c1b18ccea5a25bef595e5aad52201fd8d2b69b2795dc1891
 Section: python
 Priority: optional
 Description: Automatic kernel efistub manager for UEFI
+
+Package: libdistinst
+Source: distinst
+Version: 0.3.2-1
+Architecture: amd64
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Installed-Size: 3968
+Depends: apt, btrfs-progs, coreutils, cryptsetup, dmsetup, dmraid, dosfstools, e2fsprogs, f2fs-tools, fatresize, gettext, grub2-common, iso-codes, kpartx, kpartx-boot, libparted-fs-resize0 (>= 3.1), locales, lvm2, mount, ntfs-3g, parted, rsync, squashfs-tools, systemd-container, util-linux, xfsprogs, libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libparted2 (>= 3.1)
+Filename: ./libdistinst_0.3.2-1_amd64.deb
+Size: 1155288
+MD5sum: c222f8927084d5ec373f693e9758dd16
+SHA1: 28ee8c0c52b9f18d11c7e4c811bd3165f08c31cc
+SHA256: 58a46435926153b9db18e335cdd7b7b1a559e2672cd06cd69b966543e5cf58cd
+Section: admin
+Priority: optional
+Homepage: https://github.com/pop-os/distinst
+Description: Distribution Installer Library
+
+Package: libdistinst-dev
+Source: distinst
+Version: 0.3.2-1
+Architecture: amd64
+Maintainer: Jeremy Soller <jeremy@system76.com>
+Installed-Size: 36
+Depends: libdistinst (= 0.3.2-1)
+Filename: ./libdistinst-dev_0.3.2-1_amd64.deb
+Size: 5560
+MD5sum: 078f43e75a14ce43541fc1cb47f44859
+SHA1: 0241b8cf47d9b31a9dc9787ca076b0e2759aeb0f
+SHA256: 15499d4edcd31e65c5e514722b2e7725064c9e5d0f30afd4ddc9f48eadf1cd9a
+Section: admin
+Priority: optional
+Homepage: https://github.com/pop-os/distinst
+Description: Distribution Installer Development Files
 
 Package: linux-headers-6.0.1-060001
 Source: linux
