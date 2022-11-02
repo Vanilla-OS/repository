@@ -85,10 +85,10 @@ Maintainer: Mirko Brombin <send@mirko.pm>
 Installed-Size: 9822
 Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
 Filename: ./almost_1.2.6_all.deb
-Size: 4857384
-MD5sum: f72e04dbfc7195302b88bc7efe756dfd
-SHA1: 76f3171e9e8aa794060ed6303db21de8f53e45e2
-SHA256: 95338cf8c19083c46d4045b43782e3d863285f4db4d0f912a08eca5462975970
+Size: 4857662
+MD5sum: 51138499ebeadc2afcd23221c013ac87
+SHA1: 3b915146a6db4d4fe6f6992f1c277ff57980ac4d
+SHA256: 9999ac50354ea5ffb3eeded929f3090f6ea67e53f5d6e94f812142269a651aa4
 Section: devel
 Priority: extra
 Homepage: https://github.com/vanilla-os/almost
