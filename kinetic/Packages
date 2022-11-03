@@ -910,6 +910,22 @@ Multi-Arch: foreign
 Homepage: https://github.com/Vanilla-OS/vanilla-backgrounds
 Description: Collection of light and dark backgrounds for Vanilla-OS.
 
+Package: vanilla-backgrounds
+Version: 0.0.4
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 1967
+Filename: ./vanilla-backgrounds_0.0.4_all.deb
+Size: 2001548
+MD5sum: f1c45b97e1b20b64bc1207cb36f627d1
+SHA1: a20c7436ff1ce86c43f5effdb4da2c8c1cd27436
+SHA256: 546f0df7e2bb37611ca8a2bf684fa9be33cf93751af784e06069e1f0222ffc2e
+Section: gnome
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/Vanilla-OS/vanilla-backgrounds
+Description: Collection of light and dark backgrounds for Vanilla-OS.
+
 Package: vanilla-beta-notice
 Version: 0.0.1
 Architecture: all
