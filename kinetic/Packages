@@ -428,46 +428,44 @@ Description: Linux kernel headers for version 6.0.1 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.0.1-060001/debian.README.gz for details.
 
+Package: linux-headers-6.0.7-060007
+Source: linux
+Version: 6.0.7-060007.202211031652
+Architecture: all
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 78252
+Depends: coreutils
+Filename: ./linux-headers-6.0.7-060007_6.0.7-060007.202211031652_all.deb
+Size: 12678776
+MD5sum: 4cc5a497df20719ab876617a64143982
+SHA1: 59a2eef3657d92cee65fa6728758bc09d5271162
+SHA256: e6f24827c2cc25a09d943ebc06e0452feb402627e13d908bb255d0b2b2bcd97d
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: Header files related to Linux kernel version 6.0.7
+ This package provides kernel header files for version 6.0.7, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-headers-6.0.7-060007/debian.README.gz for details
+
 Package: linux-headers-6.0.7-060007-generic
 Source: linux
 Version: 6.0.7-060007.202211031652
-Architecture: arm64
+Architecture: amd64
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 20263
+Installed-Size: 25807
 Depends: linux-headers-6.0.7-060007, libc6 (>= 2.34), libelf1 (>= 0.144), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
 Provides: linux-headers, linux-headers-3.0
-Filename: ./linux-headers-6.0.7-060007-generic_6.0.7-060007.202211031652_arm64.deb
-Size: 2659270
-MD5sum: 989e12b642d520b2d53b01319716d770
-SHA1: eafcc9ef28a4e57a378f43d4f6d1a4522264d501
-SHA256: 741ef35a02227ad69c0def5b138e894cd4597cca4aaa63cbc04edce87380a46c
+Filename: ./linux-headers-6.0.7-060007-generic_6.0.7-060007.202211031652_amd64.deb
+Size: 3061884
+MD5sum: 5c36340afdcf396b9b9c344494afff69
+SHA1: 6f8d3c023ced6e306271326156585d27a02d9497
+SHA256: adecf02e22eef377779f665b471523c069447a52e700371621d60f1788eb5688
 Section: devel
 Priority: optional
-Description: Linux kernel headers for version 6.0.7 on ARMv8 SMP
+Description: Linux kernel headers for version 6.0.7 on 64 bit x86 SMP
  This package provides kernel header files for version 6.0.7 on
- ARMv8 SMP.
- .
- This is for sites that want the latest kernel headers.  Please read
- /usr/share/doc/linux-headers-6.0.7-060007/debian.README.gz for details.
-
-Package: linux-headers-6.0.7-060007-generic-64k
-Source: linux
-Version: 6.0.7-060007.202211031652
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 20271
-Depends: linux-headers-6.0.7-060007, libc6 (>= 2.34), libelf1 (>= 0.144), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
-Provides: linux-headers, linux-headers-3.0
-Filename: ./linux-headers-6.0.7-060007-generic-64k_6.0.7-060007.202211031652_arm64.deb
-Size: 2714120
-MD5sum: 3c88e3f72f3e18013d59e1d33e39fafb
-SHA1: 7acd5e0089373dfa05b98c1cdabdd7d87d787646
-SHA256: 0b2d27a6e6be26974612d7001d915d2db5cfe4bd0111859727a7a3115ced0da7
-Section: devel
-Priority: optional
-Description: Linux kernel headers for version 6.0.7 on ARMv8 SMP
- This package provides kernel header files for version 6.0.7 on
- ARMv8 SMP.
+ 64 bit x86 SMP.
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.0.7-060007/debian.README.gz for details.
@@ -505,25 +503,24 @@ Description: Linux kernel image for version 6.0.1 on 64 bit x86 SMP
 Package: linux-image-unsigned-6.0.7-060007-generic
 Source: linux
 Version: 6.0.7-060007.202211031652
-Architecture: arm64
+Architecture: amd64
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 15394
+Installed-Size: 11793
 Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.0.7-060007-generic
-Recommends: flash-kernel | grub-efi-arm64, initramfs-tools | linux-initramfs-tool
+Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
 Suggests: fdutils, linux-doc | linux-source-6.0.7, linux-tools, linux-headers-6.0.7-060007-generic, linux-modules-extra-6.0.7-060007-generic
 Conflicts: linux-image-6.0.7-060007-generic
-Breaks: flash-kernel (<< 3.90ubuntu2)
-Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
-Filename: ./linux-image-unsigned-6.0.7-060007-generic_6.0.7-060007.202211031652_arm64.deb
-Size: 15780032
-MD5sum: 91ebb922a9b460be08f5d1e4f9eba92e
-SHA1: b33aced45cf13c37d0db5d42074b957c79982efa
-SHA256: 399594d3abf8a07a4c4b6aecffd6339e5b4673f54aff4ca39a4b3b20229ab141
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, virtualbox-guest-modules
+Filename: ./linux-image-unsigned-6.0.7-060007-generic_6.0.7-060007.202211031652_amd64.deb
+Size: 12093632
+MD5sum: 6783807f71faf5e6839ef57f16b15feb
+SHA1: fe56b17b023cce4406fcb87134b6a25a091b1f47
+SHA256: 6541074655e2293e7debfb1e459b56ab5962255a7674ee807666c205348d2755
 Section: kernel
 Priority: optional
-Description: Linux kernel image for version 6.0.7 on ARMv8 SMP
+Description: Linux kernel image for version 6.0.7 on 64 bit x86 SMP
  This package contains the unsigned Linux kernel image for version 6.0.7 on
- ARMv8 SMP.
+ 64 bit x86 SMP.
  .
  Supports Generic processors.
  .
@@ -531,37 +528,6 @@ Description: Linux kernel image for version 6.0.7 on ARMv8 SMP
  .
  You likely do not want to install this package directly. Instead, install
  the linux-generic meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
-
-Package: linux-image-unsigned-6.0.7-060007-generic-64k
-Source: linux
-Version: 6.0.7-060007.202211031652
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 15392
-Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.0.7-060007-generic-64k
-Recommends: grub-efi-arm64 | flash-kernel, initramfs-tools | linux-initramfs-tool
-Suggests: fdutils, linux-doc | linux-source-6.0.7, linux-tools, linux-headers-6.0.7-060007-generic-64k, linux-modules-extra-6.0.7-060007-generic-64k
-Conflicts: linux-image-6.0.7-060007-generic-64k
-Breaks: flash-kernel (<< 3.90ubuntu2)
-Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
-Filename: ./linux-image-unsigned-6.0.7-060007-generic-64k_6.0.7-060007.202211031652_arm64.deb
-Size: 15769792
-MD5sum: bd92694920c042d6203346c77264ecae
-SHA1: c97ce95e96e94ba3ff0fe23955e0872bf3836f90
-SHA256: 8a71f0eac107007b1ef41bed99ff3c00de4bce26aa8fd47e7c466601a0127267
-Section: kernel
-Priority: optional
-Description: Linux kernel image for version 6.0.7 on ARMv8 SMP
- This package contains the unsigned Linux kernel image for version 6.0.7 on
- ARMv8 SMP.
- .
- Supports Generic 64K pages processors.
- .
- Geared toward desktop and server systems.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-generic-64k meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
 Package: linux-modules-6.0.1-060001-generic
@@ -593,17 +559,17 @@ Description: Linux kernel extra modules for version 6.0.1 on 64 bit x86 SMP
 Package: linux-modules-6.0.7-060007-generic
 Source: linux
 Version: 6.0.7-060007.202211031652
-Architecture: arm64
+Architecture: amd64
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 637458
-Filename: ./linux-modules-6.0.7-060007-generic_6.0.7-060007.202211031652_arm64.deb
-Size: 97984368
-MD5sum: 6896eafe691889b0e322003a9c7eda5a
-SHA1: c9d7a9d57cd8469532551c1ac3e00fbf2ad7b5b7
-SHA256: 0612c4cd857ab05de1e137a09b4657507784f8da013d03bc3a7b0a3cb3add3d5
+Installed-Size: 564051
+Filename: ./linux-modules-6.0.7-060007-generic_6.0.7-060007.202211031652_amd64.deb
+Size: 92588942
+MD5sum: 8eef2c184a11f6a70e1eff5ca344a10b
+SHA1: 08847bcc339e8177dd50bf63057cbdd0522fa064
+SHA256: 7869582941efbb718b4d4e39a5517af21cda9ef79f7301ed6a98f1a66e0b5e85
 Section: kernel
 Priority: optional
-Description: Linux kernel extra modules for version 6.0.7 on ARMv8 SMP
+Description: Linux kernel extra modules for version 6.0.7 on 64 bit x86 SMP
  Contains the corresponding System.map file, the modules built by the
  packager, and scripts that try to ensure that the system is not left in an
  unbootable state after an update.
@@ -614,32 +580,6 @@ Description: Linux kernel extra modules for version 6.0.7 on ARMv8 SMP
  .
  You likely do not want to install this package directly. Instead, install
  the linux-generic meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
-
-Package: linux-modules-6.0.7-060007-generic-64k
-Source: linux
-Version: 6.0.7-060007.202211031652
-Architecture: arm64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 636623
-Filename: ./linux-modules-6.0.7-060007-generic-64k_6.0.7-060007.202211031652_arm64.deb
-Size: 97875176
-MD5sum: 256fe09eec793a9ffad94d472134ccb9
-SHA1: 8728a1520bf77d2533880cef23ea248990c4130d
-SHA256: 9099240c0ff9f6405d42819d0ce62bb36e7e6dfce299623004608f411548fbd5
-Section: kernel
-Priority: optional
-Description: Linux kernel extra modules for version 6.0.7 on ARMv8 SMP
- Contains the corresponding System.map file, the modules built by the
- packager, and scripts that try to ensure that the system is not left in an
- unbootable state after an update.
- .
- Supports Generic 64K pages processors.
- .
- Geared toward desktop and server systems.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-generic-64k meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
 Package: micro-distrobox
