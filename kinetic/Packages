@@ -1315,3 +1315,22 @@ Description: Generic Linux kernel image
  This package will always depend on the latest generic kernel image
  available.
 
+Package: vanilla-linux-image-generic
+Version: 6.0.7
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 7
+Depends: linux-image-unsigned-6.0.7-060007-generic, linux-modules-6.0.7-060007-generic, linux-headers-6.0.7-060007-generic, linux-firmware, intel-microcode, amd64-microcode
+Recommends: thermald
+Filename: ./vanilla-linux-image-generic_6.0.7_amd64.deb
+Size: 1026
+MD5sum: d18581a127283bf6ea021148fef61d86
+SHA1: ab853b419ed5c228171edf4d828aeff407318a25
+SHA256: 9f60535482e4a8720287ff1012189c73248af14bb19291241cecf32afbcb4c85
+Section: kernel
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-kernel/
+Description: Generic Linux kernel image
+ This package will always depend on the latest generic kernel image
+ available.
+
