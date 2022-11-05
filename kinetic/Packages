@@ -613,6 +613,22 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-installer/
 Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
 
+Package: vanilla-installer
+Version: 0.2.7
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 5821
+Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91, gparted, openssl
+Filename: ./vanilla-installer_0.2.7_amd64.deb
+Size: 4077872
+MD5sum: b35a96b684ab6fa17d94277dcd63e4fe
+SHA1: e69a4c264463375b97ec799b28848f61c3266c68
+SHA256: fff8ad605cdc38e8f4aa3ae47478cdc5fd96f9166a3a38c3ace463092f12da11
+Section: utils
+Priority: optional
+Homepage: https://github.com/mirkobrombin/vanilla-installer/
+Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
+
 Package: vanilla-linux-image-generic
 Version: 6.0.7
 Architecture: amd64
