@@ -1,100 +1,4 @@
 Package: almost
-Version: 1.2.0
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9808
-Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, almost-extras
-Filename: ./almost_1.2.0_all.deb
-Size: 4851308
-MD5sum: 3ae140f1c3adc0e1fba41850ac96fc3b
-SHA1: 4391e9e83fe0ecc4b3a200af0ac57d1a499f2ab8
-SHA256: 8eeaa8f7ec314df0f22aae5b7d081382cb61bc72ca51348cfdf2d95b65b38369
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/almost
-Description: On-demand immutability for Vanilla OS.
-
-Package: almost
-Version: 1.2.1
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9820
-Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
-Filename: ./almost_1.2.1_all.deb
-Size: 4856866
-MD5sum: 49b8a6e5161befbe001aac471baf4a53
-SHA1: 567b03aeb4f5f3d3d9beec74ececc39d5fcbe3b3
-SHA256: cbc0bdf95c6067aeca5d76c65ee090924831a3b3686708e72f988c619355b71c
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/almost
-Description: On-demand immutability for Vanilla OS.
-
-Package: almost
-Version: 1.2.2
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9820
-Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
-Filename: ./almost_1.2.2_all.deb
-Size: 4856752
-MD5sum: 8658d2a4a80f44b47683262642fbca51
-SHA1: 159316bc601b3327c4b430b38921a273c4f0f6e8
-SHA256: 27b061e069c735c1fbd0776ff7d4781b6ef5099fafb036ff41fef7d37da68626
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/almost
-Description: On-demand immutability for Vanilla OS.
-
-Package: almost
-Version: 1.2.3
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9820
-Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
-Filename: ./almost_1.2.3_all.deb
-Size: 4856990
-MD5sum: e2a6df75c1ace503dc30877a762478d4
-SHA1: 93edecd8775fb123f0f71a5e77e10a39655e5d8a
-SHA256: 4cc24c4a79e1f76d91123b8cba401d995ebce7e5306f8aaeec12cae4e7c050be
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/almost
-Description: On-demand immutability for Vanilla OS.
-
-Package: almost
-Version: 1.2.5
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9822
-Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
-Filename: ./almost_1.2.5_all.deb
-Size: 1888
-MD5sum: e0a223e43c3ab132d69234f817e9c83f
-SHA1: 60524b0f4fd061cc48f68ce0a21c378e38efaec5
-SHA256: 9e8bcd8ae71acb1ab8ab22f85678807a77d694f4b7f42bb2452a900ae4dbca6d
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/almost
-Description: On-demand immutability for Vanilla OS.
-
-Package: almost
-Version: 1.2.6
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 9822
-Depends: golang-go, golang-dbus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-mattn-go-sqlite3-dev, golang-github-otiai10-copy-dev, almost-extras
-Filename: ./almost_1.2.6_all.deb
-Size: 4857662
-MD5sum: 51138499ebeadc2afcd23221c013ac87
-SHA1: 3b915146a6db4d4fe6f6992f1c277ff57980ac4d
-SHA256: 9999ac50354ea5ffb3eeded929f3090f6ea67e53f5d6e94f812142269a651aa4
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/almost
-Description: On-demand immutability for Vanilla OS.
-
-Package: almost
 Version: 1.2.7
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -125,70 +29,6 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/vanilla-os/almost-extras/
 Description: Vanilla OS adaptions for the almost utility.
-
-Package: apx
-Version: 1.1.3
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8778
-Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-briandowns-spinner-dev
-Filename: ./apx_1.1.3_all.deb
-Size: 4398150
-MD5sum: 8d2f99ac7aba062cde06e9491e72b7f4
-SHA1: 8c6ac01251a4a1679ca511b99bd77cad4de97126
-SHA256: cc6c57621efcbb6f19fa7f9e1de03368ad548feeb231764f971d710f9264a009
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/apx
-Description: Apx is the default package manager in Vanilla OS.
-
-Package: apx
-Version: 1.1.4
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8765
-Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-briandowns-spinner-dev
-Filename: ./apx_1.1.4_all.deb
-Size: 4394016
-MD5sum: ed33ffe35dbc50c46cac2ea7a38e3ea5
-SHA1: 58879f7f999c52e4b7515b7ca421ba22414f2e96
-SHA256: 3ce3501916ad24e0ea5a75fc720a9490b96989b0c95c5381591d982f5bab9ff4
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/apx
-Description: Apx is the default package manager in Vanilla OS.
-
-Package: apx
-Version: 1.1.5
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8765
-Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-briandowns-spinner-dev
-Filename: ./apx_1.1.5_all.deb
-Size: 4394040
-MD5sum: bdd9845fd6472ec370948e62497e0ef9
-SHA1: 89c581f77e3bcb1d500b0bbd0b064b53b0ec833b
-SHA256: 11125fb7150d7a86ab9e129dbe19e06cb962be58ea7e8dfaec9ddb9ae65b4963
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/apx
-Description: Apx is the default package manager in Vanilla OS.
-
-Package: apx
-Version: 1.1.6
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8765
-Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-briandowns-spinner-dev
-Filename: ./apx_1.1.6_all.deb
-Size: 4393980
-MD5sum: f60dceea40855c1badbf6eb07c30c1f0
-SHA1: e7982db5a7864dfe9f2370ea806e0a25bc41cdcb
-SHA256: 3eba0bdcf838520731e648e3559f856a0f9daeed3f88b21452d7f44615d12b65
-Section: devel
-Priority: extra
-Homepage: https://github.com/vanilla-os/apx
-Description: Apx is the default package manager in Vanilla OS.
 
 Package: apx
 Version: 1.1.7
@@ -386,48 +226,6 @@ Priority: optional
 Homepage: https://github.com/pop-os/distinst
 Description: Distribution Installer Development Files
 
-Package: linux-headers-6.0.1-060001
-Source: linux
-Version: 6.0.1-060001.202210120833
-Architecture: all
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 78245
-Depends: coreutils
-Filename: ./linux-headers-6.0.1-060001_6.0.1-060001.202210120833_all.deb
-Size: 12684360
-MD5sum: e5fb7a48907417802e16882bc74df476
-SHA1: a8e493d2744a912f65efc2e1b41a06d7f5f2151f
-SHA256: fe77c7f24df2e374e16bbbe10a3592e4a7fdb4068579cb2554be4669f61245b4
-Section: devel
-Priority: optional
-Multi-Arch: foreign
-Description: Header files related to Linux kernel version 6.0.1
- This package provides kernel header files for version 6.0.1, for sites
- that want the latest kernel headers. Please read
- /usr/share/doc/linux-headers-6.0.1-060001/debian.README.gz for details
-
-Package: linux-headers-6.0.1-060001-generic
-Source: linux
-Version: 6.0.1-060001.202210120833
-Architecture: amd64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 25800
-Depends: linux-headers-6.0.1-060001, libc6 (>= 2.34), libelf1 (>= 0.144), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
-Provides: linux-headers, linux-headers-3.0
-Filename: ./linux-headers-6.0.1-060001-generic_6.0.1-060001.202210120833_amd64.deb
-Size: 3095726
-MD5sum: ae7ec51dcc17c174695509361b3adcd7
-SHA1: 37894fa9a2ec04c64602b2b33a861d6600579d88
-SHA256: 13f8704b9bbbfe72b7c9072a36e0115bc8d9ebd8c1c1cb6c15a0d33adfdbcaaf
-Section: devel
-Priority: optional
-Description: Linux kernel headers for version 6.0.1 on 64 bit x86 SMP
- This package provides kernel header files for version 6.0.1 on
- 64 bit x86 SMP.
- .
- This is for sites that want the latest kernel headers.  Please read
- /usr/share/doc/linux-headers-6.0.1-060001/debian.README.gz for details.
-
 Package: linux-headers-6.0.7-060007
 Source: linux
 Version: 6.0.7-060007.202211031652
@@ -470,36 +268,6 @@ Description: Linux kernel headers for version 6.0.7 on 64 bit x86 SMP
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.0.7-060007/debian.README.gz for details.
 
-Package: linux-image-unsigned-6.0.1-060001-generic
-Source: linux
-Version: 6.0.1-060001.202210120833
-Architecture: amd64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 11793
-Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.0.1-060001-generic
-Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo, initramfs-tools | linux-initramfs-tool
-Suggests: fdutils, linux-doc | linux-source-6.0.1, linux-tools, linux-headers-6.0.1-060001-generic, linux-modules-extra-6.0.1-060001-generic
-Conflicts: linux-image-6.0.1-060001-generic
-Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules, virtualbox-guest-modules
-Filename: ./linux-image-unsigned-6.0.1-060001-generic_6.0.1-060001.202210120833_amd64.deb
-Size: 12093632
-MD5sum: d0ee5fe16df6073a5bd3be4367f45490
-SHA1: ef505c419b3251ba8b041d9201d29751b1019db5
-SHA256: 9d93808fa363080ce461d1f11d425c53b69bb17ef353c690040fba2f5472dcfb
-Section: kernel
-Priority: optional
-Description: Linux kernel image for version 6.0.1 on 64 bit x86 SMP
- This package contains the unsigned Linux kernel image for version 6.0.1 on
- 64 bit x86 SMP.
- .
- Supports Generic processors.
- .
- Geared toward desktop and server systems.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-generic meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
-
 Package: linux-image-unsigned-6.0.7-060007-generic
 Source: linux
 Version: 6.0.7-060007.202211031652
@@ -521,32 +289,6 @@ Priority: optional
 Description: Linux kernel image for version 6.0.7 on 64 bit x86 SMP
  This package contains the unsigned Linux kernel image for version 6.0.7 on
  64 bit x86 SMP.
- .
- Supports Generic processors.
- .
- Geared toward desktop and server systems.
- .
- You likely do not want to install this package directly. Instead, install
- the linux-generic meta-package, which will ensure that upgrades work
- correctly, and that supporting packages are also installed.
-
-Package: linux-modules-6.0.1-060001-generic
-Source: linux
-Version: 6.0.1-060001.202210120833
-Architecture: amd64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 565666
-Filename: ./linux-modules-6.0.1-060001-generic_6.0.1-060001.202210120833_amd64.deb
-Size: 92477210
-MD5sum: 433834bf665277b8debb3f0ce8388e27
-SHA1: 906fed33a4dd9482b58795df5c726761118e8815
-SHA256: faf5a2431b53e162fe920bbd822eacf90cbfade8703af3c36a1cb23af0f5dcbc
-Section: kernel
-Priority: optional
-Description: Linux kernel extra modules for version 6.0.1 on 64 bit x86 SMP
- Contains the corresponding System.map file, the modules built by the
- packager, and scripts that try to ensure that the system is not left in an
- unbootable state after an update.
  .
  Supports Generic processors.
  .
@@ -581,92 +323,6 @@ Description: Linux kernel extra modules for version 6.0.7 on 64 bit x86 SMP
  You likely do not want to install this package directly. Instead, install
  the linux-generic meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
-
-Package: micro-distrobox
-Version: 1.4.1
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 282
-Depends: podman | docker.io
-Conflicts: distrobox
-Filename: ./micro-distrobox_1.4.1_all.deb
-Size: 152808
-MD5sum: 76651abd44ec22d63b80e91bf53afde7
-SHA1: ef238a76ebecf5caad40e04b788b671f2c32567c
-SHA256: dcf1626e68055f34c555ff8b71d53af95a9dd9f4cf13bff6018065fb50ec5118
-Section: admin
-Priority: optional
-Homepage: https://distrobox.privatedns.org/
-Description: Another tool for containerized command line environments on Linux
- Use any linux distribution inside your terminal. Distrobox uses podman or
- docker to create containers using the linux distribution of your choice.
- Created container will be tightly integrated with the host, allowing to share
- the HOME directory of the user, external storage, external usb devices and
- graphical apps (X11/Wayland) and audio.
-
-Package: micro-distrobox
-Version: 1.4.1-1
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 283
-Depends: podman | docker.io
-Conflicts: distrobox
-Filename: ./micro-distrobox_1.4.1-1_all.deb
-Size: 152828
-MD5sum: 624be93b3fe54e5f01ddc8c7ef96a1ea
-SHA1: 4f2653ffb1a08d822a187fa2525ef84057996ace
-SHA256: 1548162361bf4083b8ddfc1f7b55d66d79e504fe9455379b1527612ccf97a984
-Section: admin
-Priority: optional
-Homepage: https://distrobox.privatedns.org/
-Description: Another tool for containerized command line environments on Linux
- Use any linux distribution inside your terminal. Distrobox uses podman or
- docker to create containers using the linux distribution of your choice.
- Created container will be tightly integrated with the host, allowing to share
- the HOME directory of the user, external storage, external usb devices and
- graphical apps (X11/Wayland) and audio.
-
-Package: micro-distrobox
-Version: 1.4.1-2
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 283
-Depends: podman | docker.io
-Filename: ./micro-distrobox_1.4.1-2_all.deb
-Size: 152826
-MD5sum: 873cf2fa2768c60bcd09ce3caa9633ed
-SHA1: ed1c59e97a4de503255e80efdbace86a563f4d52
-SHA256: 30e4a2806c31580d031edfeb5400a5bddc339c102ee8d6185635ae88983451b6
-Section: admin
-Priority: optional
-Homepage: https://distrobox.privatedns.org/
-Description: Another tool for containerized command line environments on Linux
- Use any linux distribution inside your terminal. Distrobox uses podman or
- docker to create containers using the linux distribution of your choice.
- Created container will be tightly integrated with the host, allowing to share
- the HOME directory of the user, external storage, external usb devices and
- graphical apps (X11/Wayland) and audio.
-
-Package: micro-distrobox
-Version: 1.4.1-3
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 287
-Depends: podman | docker.io
-Filename: ./micro-distrobox_1.4.1-3_all.deb
-Size: 153646
-MD5sum: 06d5ebbf4f6be26ef201e80057c07af4
-SHA1: a8f2e59bd71dffe43dfe9ce82fd67c5caf79fad3
-SHA256: 38b03af10c1176a8a82b1f3c7ee8d60f7d3eb7740364a1d33fbebe80a19705fb
-Section: admin
-Priority: optional
-Homepage: https://distrobox.privatedns.org/
-Description: Another tool for containerized command line environments on Linux
- Use any linux distribution inside your terminal. Distrobox uses podman or
- docker to create containers using the linux distribution of your choice.
- Created container will be tightly integrated with the host, allowing to share
- the HOME directory of the user, external storage, external usb devices and
- graphical apps (X11/Wayland) and audio.
 
 Package: micro-distrobox
 Version: 1.4.1-4
@@ -711,25 +367,6 @@ Description: Another tool for containerized command line environments on Linux
  graphical apps (X11/Wayland) and audio.
 
 Package: plymouth-theme-vanilla
-Version: 0.0.7
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8
-Depends: plymouth-theme-vanilla-bgrt, plymouth-theme-vanilla-text
-Filename: ./plymouth-theme-vanilla_0.0.7_all.deb
-Size: 1610
-MD5sum: b5942a23ce1e43623bc00f3ebb8acf3e
-SHA1: 739cbb070aaca40bc3725c3b72ad9cfbb44e855a
-SHA256: 3727d7b14746d9eb1c0f3cc5b0ed1c755c6dcfef018930112d41adc3d89d7aa3
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
-Description: Official Vanilla OS Plymouth (metapackage)
- This package contains the official Vanilla OS Plymouth theme.
- .
- This package is a metapackage, it depends on the bgrt, logo and text packages.
-
-Package: plymouth-theme-vanilla
 Version: 0.0.8
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -747,25 +384,6 @@ Description: Official Vanilla OS Plymouth (metapackage)
  This package contains the official Vanilla OS Plymouth theme.
  .
  This package is a metapackage, it depends on the bgrt, logo and text packages.
-
-Package: plymouth-theme-vanilla-bgrt
-Source: plymouth-theme-vanilla
-Version: 0.0.7
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 193
-Depends: plymouth, plymouth-label
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
-Provides: plymouth-theme
-Filename: ./plymouth-theme-vanilla-bgrt_0.0.7_all.deb
-Size: 126882
-MD5sum: 76158a5704ef1ed187a6af2c08012f79
-SHA1: bf61a35795b3e94396ef8139aeec50e820cf3bbf
-SHA256: 50d9c13159e37395490f5d4859f4ab5f09c0c3fcff635c9b0fdaf8105c001e73
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
-Description: Official Vanilla OS Plymouth (bgrt)
 
 Package: plymouth-theme-vanilla-bgrt
 Source: plymouth-theme-vanilla
@@ -788,25 +406,6 @@ Description: Official Vanilla OS Plymouth (bgrt)
 
 Package: plymouth-theme-vanilla-logo
 Source: plymouth-theme-vanilla
-Version: 0.0.7
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 112
-Depends: plymouth, plymouth-label
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
-Provides: plymouth-theme
-Filename: ./plymouth-theme-vanilla-logo_0.0.7_all.deb
-Size: 23122
-MD5sum: 9d89fae8a3e26fe5a42cdc1b2cac9d1a
-SHA1: 47963f34e1ad766752300a610c0ee5d752d2e20b
-SHA256: 6bacbce96d3d7bc3fc59a487ecd9331047bbaeef7a811b6a183b3565372ad27f
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
-Description: Official Vanilla OS Plymouth (logo)
-
-Package: plymouth-theme-vanilla-logo
-Source: plymouth-theme-vanilla
 Version: 0.0.8
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -826,25 +425,6 @@ Description: Official Vanilla OS Plymouth (logo)
 
 Package: plymouth-theme-vanilla-text
 Source: plymouth-theme-vanilla
-Version: 0.0.7
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 16
-Depends: plymouth, plymouth-theme-ubuntu-text
-Breaks: plymouth (<< 0.9.2-3ubuntu1~)
-Provides: plymouth-theme
-Filename: ./plymouth-theme-vanilla-text_0.0.7_all.deb
-Size: 2356
-MD5sum: 8492f7d0dffd389ba031a52f6afaaf3b
-SHA1: 4c46d215d35e862badede00e4738944cdb935079
-SHA256: c6e2a245fd566a90cf8cc347f8715938f1b1ada812bd75984e9f0475c7f37c51
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
-Description: Official Vanilla OS Plymouth (text)
-
-Package: plymouth-theme-vanilla-text
-Source: plymouth-theme-vanilla
 Version: 0.0.8
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -861,54 +441,6 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/plymouth-theme-vanilla/
 Description: Official Vanilla OS Plymouth (text)
-
-Package: vanilla-backgrounds
-Version: 0.0.1
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 38439
-Filename: ./vanilla-backgrounds_0.0.1_all.deb
-Size: 38525194
-MD5sum: 5e4c0fc0fdec53d880b14f96e3f6d04e
-SHA1: 2632477f47db872d74680819f303ab42ce9338b4
-SHA256: a16f158085aa63981af167b2ae76753dfd9598c75687d85102cfaa310e0ec3ec
-Section: gnome
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/Vanilla-OS/vanilla-backgrounds
-Description: Collection of light and dark backgrounds for Vanilla-OS.
-
-Package: vanilla-backgrounds
-Version: 0.0.2
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 41815
-Filename: ./vanilla-backgrounds_0.0.2_all.deb
-Size: 42258744
-MD5sum: c6797a5cd9e37ce847ece36c2b8c3b42
-SHA1: bab34e1eeb86210fae60ea750ffbd40147c70724
-SHA256: fde4992c749e0b83768a602baf5ad1f88ebcc5a1bbf02b5a835565fb74433aea
-Section: gnome
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/Vanilla-OS/vanilla-backgrounds
-Description: Collection of light and dark backgrounds for Vanilla-OS.
-
-Package: vanilla-backgrounds
-Version: 0.0.3
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 1982
-Filename: ./vanilla-backgrounds_0.0.3_all.deb
-Size: 2015828
-MD5sum: b3e72cbc737537be41ffc0a6c6c74bd5
-SHA1: 75b9bcedb65140175de6dfc8e5590ab196a0d639
-SHA256: 3bca8a60ea9d3ac45bde0bf89d0e8a4de56277d8b23d04a19f142c29747dec0b
-Section: gnome
-Priority: optional
-Multi-Arch: foreign
-Homepage: https://github.com/Vanilla-OS/vanilla-backgrounds
-Description: Collection of light and dark backgrounds for Vanilla-OS.
 
 Package: vanilla-backgrounds
 Version: 0.0.4
@@ -972,54 +504,6 @@ Homepage: https://github.com/vanilla-os/vanilla-beta-notice/
 Description: Vanilla OS Beta Notice for testers.
 
 Package: vanilla-control-center
-Version: 0.0.8
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 113
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
-Filename: ./vanilla-control-center_0.0.8_amd64.deb
-Size: 19416
-MD5sum: 7487debc5e6d6621cc2c97bb1cd9170d
-SHA1: ee9c47ab04a9c02c25470cd89e22feaf9b8db143
-SHA256: e38255bfc37d775cde64ae3e5c2fba834d9724ff2bea682e61e137eecb124fb8
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-control-center/
-Description: This utility allows you to manage Vanilla OS components.
-
-Package: vanilla-control-center
-Version: 0.0.9
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 114
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
-Filename: ./vanilla-control-center_0.0.9_amd64.deb
-Size: 19556
-MD5sum: d61e311edf4034d565fa53daf807e91e
-SHA1: f65682ee0fe67312d4c71667d074aa58de00d262
-SHA256: 1c8ec0a4eaea6d736def6073253ef868ecedf4e5f7371dc60de5ffdc1aec7bf5
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-control-center/
-Description: This utility allows you to manage Vanilla OS components.
-
-Package: vanilla-control-center
-Version: 0.1.0
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 259
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
-Filename: ./vanilla-control-center_0.1.0_amd64.deb
-Size: 26114
-MD5sum: 90f03a37f7f6097cec206637960219e3
-SHA1: fe84e8df3f11e3c207da4f79c3bc602550cb39a1
-SHA256: 745ea4a49286281508ba1c0aaa101ebbb0c57f6337d40facbea0ac239b5bea6e
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-control-center/
-Description: This utility allows you to manage Vanilla OS components.
-
-Package: vanilla-control-center
 Version: 0.1.1
 Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -1035,50 +519,21 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
 Description: This utility allows you to manage Vanilla OS components.
 
-Package: vanilla-dev-dummy-pkg
-Version: 1
-Architecture: all
+Package: vanilla-control-center
+Version: 0.1.2
+Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8
-Filename: ./vanilla-dev-dummy-pkg_1_all.deb
-Size: 1538
-MD5sum: fa9eeaf53e64164100929540d1567f1c
-SHA1: 48d3a9b71a26d1451c994865d36dfcabb28aaa68
-SHA256: 0d7b1e10581324a001f17919cace8f2d18341b82b1ec7d3ccaa8ca011b3419fc
-Section: admin
+Installed-Size: 290
+Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
+Filename: ./vanilla-control-center_0.1.2_amd64.deb
+Size: 33160
+MD5sum: 008d7811ae95821115ffe08e57ecf922
+SHA1: cbfedeb68fbfd6c9b5d7a98c6330a8dbbf043a38
+SHA256: 9cfa858d2e9fa21d26c55bda64aefad710c22f192d4a236012a59db387ce0589
+Section: utils
 Priority: optional
-Homepage: https://vanillaos.org
-Description: dummy package for development tests
-
-Package: vanilla-dev-dummy-pkg
-Version: 2
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8
-Filename: ./vanilla-dev-dummy-pkg_2_all.deb
-Size: 1534
-MD5sum: bd31c7d8b12d0ddeec945867a2c0641f
-SHA1: 36c50aa338ea68059d2f95f8231d85b5192e3e52
-SHA256: 77c8306d5bc79fbae48d56a7d6cf68eebf52342ef020d343cd7bf81996708414
-Section: admin
-Priority: optional
-Homepage: https://vanillaos.org
-Description: dummy package for development tests
-
-Package: vanilla-dev-dummy-pkg
-Version: 3
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 8
-Filename: ./vanilla-dev-dummy-pkg_3_all.deb
-Size: 1538
-MD5sum: 08d01a5cd76942e4946ffc3d3690cca4
-SHA1: 78c4f65b30903388a751d28a0796d7e9ea72ccc8
-SHA256: 592352815ebda5360964eadc73d711ea0e39adf3da9b23d74472e2f46d7b483a
-Section: admin
-Priority: optional
-Homepage: https://vanillaos.org
-Description: dummy package for development tests
+Homepage: https://github.com/mirkobrombin/vanilla-control-center/
+Description: This utility allows you to manage Vanilla OS components.
 
 Package: vanilla-dev-dummy-pkg
 Version: 4
@@ -1096,36 +551,6 @@ Homepage: https://vanillaos.org
 Description: dummy package for development tests
 
 Package: vanilla-distrologo
-Version: 0.0.5
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 45
-Filename: ./vanilla-distrologo_0.0.5_all.deb
-Size: 19022
-MD5sum: 1665490d527d68368c6f212fff0caf0c
-SHA1: 9aae379731eb27b469c7b4063535444544be99b4
-SHA256: c856a1592ae06dfebfef71870d787fa3d7a33a446408b3bb5cba0e4c354db8e5
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
-Description: Official Vanilla OS Logo
-
-Package: vanilla-distrologo
-Version: 0.0.6
-Architecture: all
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 45
-Filename: ./vanilla-distrologo_0.0.6_all.deb
-Size: 19008
-MD5sum: 038b256567f94f7b30fe61237d4bd3c2
-SHA1: 336874416ab12e41b24c883328e20148033de929
-SHA256: 19a801fc052f1702b3cf297ded74c4ec56b7f15a6548957d82695449d22b289f
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
-Description: Official Vanilla OS Logo
-
-Package: vanilla-distrologo
 Version: 0.0.7
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
@@ -1139,22 +564,6 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-distrologo/
 Description: Official Vanilla OS Logo
-
-Package: vanilla-first-setup
-Version: 1.2.0
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 137
-Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
-Filename: ./vanilla-first-setup_1.2.0_amd64.deb
-Size: 19034
-MD5sum: 5293aad2dc65afa9b82898bdb054306e
-SHA1: 3d93105256921ff792929eaf6a9e34aa6d532220
-SHA256: dd87a2ef8d8bd8851a6cc08a231157e2dd138cbc102472cdc6f50bb83fa2bb4e
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
 
 Package: vanilla-first-setup
 Version: 1.2.1
@@ -1172,116 +581,20 @@ Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
 Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
 
-Package: vanilla-installer
-Version: 0.1.0
+Package: vanilla-first-setup
+Version: 1.2.2
 Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5753
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.1.0_amd64.deb
-Size: 4106334
-MD5sum: 48c6fa4f823155cc2a016f98874ce48a
-SHA1: f431a7915534451b77b9047b67ee9ed9ce563f0d
-SHA256: 72a1df5f47101879f6ec368109e42466b0bd38cfce672afd3173ed7c116ec346
+Installed-Size: 281
+Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
+Filename: ./vanilla-first-setup_1.2.2_amd64.deb
+Size: 28570
+MD5sum: f932546166ec094559cdbad32fc1dd4a
+SHA1: 0de9b3f19b86ce0f270cceefcff067caccba1ef5
+SHA256: 2fbf20d8344ae0b697ec8271cfe3577c92f21aafa9c7716dcb196f06a72ce78f
 Section: utils
 Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-installer
-Version: 0.2.0
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5748
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.2.0_amd64.deb
-Size: 4063146
-MD5sum: 48d7747befc599b9febfc11a97771c2b
-SHA1: d3e9954bfad3889020e7f43768a45015fd0e2017
-SHA256: 3d8c1cf0e2bf4cfa211437dc3c822012f4497333e7c87f63080a09510c3c15d8
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-installer
-Version: 0.2.1
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5753
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.2.1_amd64.deb
-Size: 4064548
-MD5sum: 231de9efe7ee8b3a9d217a1b4821b7ea
-SHA1: dfbd11b9a8762b9995f0333f60713f3a4e6ed62a
-SHA256: 493ca1cf1007d4d2adad2056fb7f736677bdb9270cf554eeb3f9f22453b864fe
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-installer
-Version: 0.2.2
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5752
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.2.2_amd64.deb
-Size: 4065328
-MD5sum: 16a2f3ac83b9acae101ba26a5241eb05
-SHA1: e3515336f41fafea574880077e428dc5161daadc
-SHA256: 14778c4c883af374d962d7a86367fe591f2ac25e85ff55ac2831431454d7c735
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-installer
-Version: 0.2.3
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5752
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.2.3_amd64.deb
-Size: 4065000
-MD5sum: 35aa17882672aae75b24e73317661dcf
-SHA1: bf8b642dd39e395c971feaeefd3980686d816e2d
-SHA256: 410f916c0fa85213cee5ccb8198a2144efb949433928f8492a6df74a1cd93796
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-installer
-Version: 0.2.4
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5752
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.2.4_amd64.deb
-Size: 4065974
-MD5sum: 1e82d7c780e3f04ec05edfecc36278fa
-SHA1: 9786fe1172ece94223b19e3582dc2e2fc338f266
-SHA256: ea27d4bcd55202d1146bd3a42f407338e8937db7357e5ba9c7e79d9b1f515d4f
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
-Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-installer
-Version: 0.2.5
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 5759
-Depends: python3, python3-tz, python3-gi, libadwaita-1-0, libgnome-desktop-4-2, libgweather-4-0, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gnomedesktop-4.0, gir1.2-gweather-4.0, gir1.2-vte-3.91
-Filename: ./vanilla-installer_0.2.5_amd64.deb
-Size: 4064400
-MD5sum: e2730af45901211239e43d5d9fc17de1
-SHA1: 1001a5760dbda19195baf82ae277d5fc92628864
-SHA256: 6e4e78bc4491c373a6840444d1173901eb5d188b95703bd697ae0cb9ed28f8e8
-Section: utils
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-installer/
+Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
 Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
 
 Package: vanilla-installer
@@ -1299,25 +612,6 @@ Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-installer/
 Description: This utility is meant to be used in Ubuntu Vanilla GNOME as a first-setup wizard.
-
-Package: vanilla-linux-image-generic
-Version: 6.0.1
-Architecture: amd64
-Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 7
-Depends: linux-image-unsigned-6.0.1-060001-generic, linux-modules-6.0.1-060001-generic, linux-headers-6.0.1-060001-generic, linux-firmware, intel-microcode, amd64-microcode
-Recommends: thermald
-Filename: ./vanilla-linux-image-generic_6.0.1_amd64.deb
-Size: 1030
-MD5sum: 19b9fe16e954ac75f4f0d517539754aa
-SHA1: 5816c62ee965bbdcef736c7f590fbaddf69d1e99
-SHA256: bb1bfb82af51b7f6476cc9caf02bec50875074245b190be591f3cc3e1d715e73
-Section: kernel
-Priority: optional
-Homepage: https://github.com/mirkobrombin/vanilla-kernel/
-Description: Generic Linux kernel image
- This package will always depend on the latest generic kernel image
- available.
 
 Package: vanilla-linux-image-generic
 Version: 6.0.7
