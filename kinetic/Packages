@@ -560,13 +560,13 @@ Package: vanilla-control-center
 Version: 0.1.2
 Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 290
+Installed-Size: 301
 Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common, apx, almost
 Filename: ./vanilla-control-center_0.1.2_amd64.deb
-Size: 33160
-MD5sum: 008d7811ae95821115ffe08e57ecf922
-SHA1: cbfedeb68fbfd6c9b5d7a98c6330a8dbbf043a38
-SHA256: 9cfa858d2e9fa21d26c55bda64aefad710c22f192d4a236012a59db387ce0589
+Size: 35752
+MD5sum: 5f6172f0cca20d42111308d3d66b2c07
+SHA1: 88e92d41c0c16fd32a7526d45c6c5d90bdfc3fa1
+SHA256: 0a347c6fe7b3f705df6efeb561e28819883c21207a8cc668c8cef864c38d9911
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
