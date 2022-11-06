@@ -46,6 +46,22 @@ Priority: extra
 Homepage: https://github.com/vanilla-os/apx
 Description: Apx is the default package manager in Vanilla OS.
 
+Package: apx
+Version: 1.1.8
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 11258
+Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-briandowns-spinner-dev
+Filename: ./apx_1.1.8_all.deb
+Size: 5578274
+MD5sum: a59593d67c975e03bd597696e82e626f
+SHA1: 9293fac9a0aa6d5379f32f55fedd3d1637f98489
+SHA256: 96b50ef94b17f8db7aaf5920e53f6364867da5cd13cb153120c2481e3e7a40d9
+Section: devel
+Priority: extra
+Homepage: https://github.com/vanilla-os/apx
+Description: Apx is the default package manager in Vanilla OS.
+
 Package: base-files
 Version: 12.2ubuntu3+vanilla-1
 Architecture: amd64
