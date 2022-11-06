@@ -622,13 +622,13 @@ Package: vanilla-first-setup
 Version: 1.2.2
 Architecture: amd64
 Maintainer: Mirko Brombin <send@mirko.pm>
-Installed-Size: 281
+Installed-Size: 302
 Depends: python3, python3-gi, libadwaita-1-0, gir1.2-gtk-4.0, gir1.2-adw-1, ubuntu-drivers-common
 Filename: ./vanilla-first-setup_1.2.2_amd64.deb
-Size: 28570
-MD5sum: f932546166ec094559cdbad32fc1dd4a
-SHA1: 0de9b3f19b86ce0f270cceefcff067caccba1ef5
-SHA256: 2fbf20d8344ae0b697ec8271cfe3577c92f21aafa9c7716dcb196f06a72ce78f
+Size: 33162
+MD5sum: 4f37a0b7ed91f87ee603ce0a712a75e4
+SHA1: 2dfaabf09bbac918268cc56ba5d4c9859b6618fc
+SHA256: 89023ed7a2ac08efbb842a5819aaeec02e7c6d3a7ca68850e5e6503106647bfd
 Section: utils
 Priority: optional
 Homepage: https://github.com/mirkobrombin/vanilla-first-setup/
