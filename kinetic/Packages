@@ -31,6 +31,22 @@ Homepage: https://github.com/vanilla-os/almost-extras/
 Description: Vanilla OS adaptions for the almost utility.
 
 Package: apx
+Version: 1.1.10
+Architecture: all
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 11259
+Depends: micro-distrobox, podman, golang-go, golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-google-uuid-dev, golang-github-briandowns-spinner-dev
+Filename: ./apx_1.1.10_all.deb
+Size: 5579056
+MD5sum: 61d357c1c42d6fd9989f6a9df021301f
+SHA1: 7b4597fbb1d46fc68633350d9c9e22a55e950591
+SHA256: c267419acd4f8d8438d42f0e209167fce1b5ac20dab0120014f73aa1eeef3fb9
+Section: devel
+Priority: extra
+Homepage: https://github.com/vanilla-os/apx
+Description: Apx is the default package manager in Vanilla OS.
+
+Package: apx
 Version: 1.1.7
 Architecture: all
 Maintainer: Mirko Brombin <send@mirko.pm>
